@@ -19,10 +19,10 @@ body {
 }
 
 .sort {
+  margin: 380px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 400px;
 }
 
 img {
@@ -31,36 +31,34 @@ img {
 }
 
 .font {
+  font-weight: 400;
   font-size: 80px;
-  font-weight: bold;
-  margin: 0px 150px 0px 20px;
+  line-height: 92px;
+  margin: 0px 50px;
+}
+
+.center {
+  margin: 0px 0px 0px 278px;
 }
 
 button {
   width: 356px;
   height: 66px;
-  background-color: white;
+  background: #ffffff;
   border-radius: 50px;
   border: none;
-  font-size: 30px;
-  font-weight: lighter;
-  margin: 15px 0px;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
-.center {
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: column;
+  align-items: center;
+  margin: 20px 0px;
 }
 
 a {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  text-decoration-line: none;
   color: black;
-  text-decoration: none;
 }
 
 a:active {
